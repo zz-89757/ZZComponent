@@ -24,14 +24,14 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/zz-89757/ZZComponent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zz-89757' => 'zhouxiang@lisinuo.net' }
+  s.author           = { 'zz-89757' => 'zz-89757' }
   s.source           = { :git => 'https://github.com/zz-89757/ZZComponent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ZZComponent/Classes/**/*'
-  
+  s.source_files = 'Source/**/*.{h,m,swift}'
+  s.swift_versions   = ['5.0']
   # s.resource_bundles = {
   #   'ZZComponent' => ['ZZComponent/Assets/*.png']
   # }
