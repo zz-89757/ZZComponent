@@ -24,7 +24,7 @@ import Foundation
 
     @objc
     public static func sharedDatabaseUrl() -> URL? {
-        return sharedUrl()?.appendingPathComponent("Whirlwind.realm")
+        return sharedUrl()?.appendingPathComponent("xxx.realm")
     }
 
     @objc
